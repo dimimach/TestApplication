@@ -9,6 +9,7 @@ namespace TestAppl
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            System.Console.WriteLine("Everything's working fine");
         }
     }
 }
